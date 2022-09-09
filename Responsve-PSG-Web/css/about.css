@@ -1,0 +1,38 @@
+.about {
+    text-align: center;
+    margin-top: 30px;
+}
+.about img {
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+.about-img img{
+    max-width: 480px;
+    border: 2px solid #ddd;
+    border-radius: 9px;
+}
+.about-text {
+    margin: 10px;
+}
+.about-text h3 {
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+    direction: rtl;
+}
+.about-text span {
+    color: rgb(56, 104, 12);
+}
+@media  screen and (max-width: 900px) {
+    .about-img img {
+        max-width: 350px;
+    }
+}
+@media  screen and (max-width: 1368px)
+{
+    .about-img img {
+        max-width: 703px;
+        border: 2px solid #ddd;
+        border-radius: 9px;
+    }
+}
